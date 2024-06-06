@@ -1,0 +1,108 @@
+ESTCORE 6214
+270122
+270365
+270350
+270340
+
+El estudiante debe leer previo a la clase las páginas 18 a 26 del libro guía (7ma edición).
+10073
+26785
+
+anulada y trabajadores activos
+MERGE INTO
+SAVE POINT
+WHEN MATCHED THEN
+INSERTUPD.
+
+Si requiere permitir que un usuario final agregue valores adicionales a un elemento de lista en tiempo de ejecución y garantizar que el Record Group UBICACIONES que se usa para poblar el elemento de lista pueda ser actualizado con cualquier valor suministrado por el usuario, ¿qué acciones se deben realizar? (Seleccione 2)
+
+Agregar un nuevo valor al elemento de lista llamando usando el built-in POPULATE_LIST
+Agregar un nuevo valor a UBICACIONES usando el built-in POPULATE_GROUP
+Agregar un nuevo valor al elemento de lista usando el built-in ADD_LIST_ELEMENT
+Eliminar valores duplicados en UBICACIONES usando el built-in DELETE_LIST_ELEMENT
+Agregar un nuevo valor a UBICACIONES usando los built-in ADD_GROUP_ROW y SET_GROUP_CHAR_CELL
+Agregar un Nuevo valor a UBICACIONES usando los built-in ADD_GROUP_ROW y SET_GROUP_NUMBER_CELL
+
+
+DECLARE
+v_codigo varchar2(100);
+v_nombre varchar2(100);
+v_apellido varchar2(100);
+v_codigo_error    NUMBER;
+v_mensaje_error   VARCHAR2(1500);
+BEGIN
+SELECT codigo, nombre, apellido
+
+INTO v_codigo, v_nombre, v_apellido
+
+FROM empleados
+
+WHERE código =  p_codigo;
+
+Exception
+
+WHEN NO_DATA_FOUND  THEN
+DBMS_OUTPUT.PUT_LINE('Error Codigo: '||v_codigo);
+
+
+
+DBMS_OUTPUT.PUT_LINE(Bloque_plsql);
+
+La instancia se compone de la memoria y los procesos en segundo plano que respaldan la base de datos
+
+PRAGMA AUTONOMOUS_TRANSACTION;
+WHEN TOO_MANY_ROWS THEN
+DBMS_OUTPUT.PUT_LINE ('Error Nombre: '||v_nombre);
+
+EXCEPTION
+WHEN OTHERS THEN
+v_codigo_error := SQLCODE;
+ v_mensaje_error :=  SQLERRM;
+
+END;
+
+
+Buenas noches
+
+
+
+Mi nombre es Luis Carlos Lemus, Analista y desarrollador de Sistemas de Información, estudio Ingeniera de Sistemas en la Universidad ECCI en 9no semestre, trabajo hace 4 años en el área de PL/SQL en Oracle, quiero seguir retroalimentando mi hoja de vida y seguir creciendo profesionalmente.
+
+
+Un modelo de base de datos muestra la estructura lógica de la base, incluidas las relaciones y limitaciones que determinan cómo se almacenan los datos y cómo se accede a ellos.
+
+Machine Learning aprendizaje automatico de maquina
+ciencia de datos
+inteligencia artificial
+neuroal networks
+
+
+
+
+
+
+800083218
+800083218
+12964744
+19233401
+91253930
+32650359
+19220622
+21131125
+19213895
+19380871
+60011010
+37342543
+34986867
+60284180
+
+Busque el método abreviado de NetBeans que da formato de manera automática al código para que cumpla con las indicaciones de sangría que se explicaron.
+
+El modelo OSI describe una estructura con siete capas para las actividades de red. Cada capa tiene asociados uno o más protocolo
+
+
+El modelo OSI enumera las capas de protocolos desde la superior (capa 7) hasta la inferior (capa 1). La tabla siguiente muestra el modelo.
+s. Las capas representan las operaciones de transferencia de datos comunes a todos los tipos de transferencias de datos entre las redes de cooperación.
+
+
+15 marzo, en el mes se presento duplicidad de datos, identificar registros duplicados
